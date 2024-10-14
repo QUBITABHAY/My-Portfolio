@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+
+body{
+    background: url("pic.jpg");
+    background-size: cover;
+    font-family: "Love Light",cursive;
+}
+
+*{
+    align-content: center;
+}
+
+.topnav{
+    height: 100px;
+}
+
+.content{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h2{
+    font-family: cursive;
+}
+
+header{
+    font-size: 30px;
+}
+
+p{
+    font-family: cursive;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 1px solid;
+}
+
+header:hover{
+    color: rgb(255, 0, 0);
+}
+
+.about{
+    border: 2px dashed;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    background-image: linear-gradient(to top, #11cce1fd 0%, #fed6e3 90%);
+}
+
+.project{
+    border: 2px dashed;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    background-image: linear-gradient(to top, #11cce1fd 0%, #fed6e3 90%);
+}
+
+.proj{
+    border: 2px dashed;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    background-image: linear-gradient(to top, #11cce1fd 0%, #fed6e3 90%);
+}
