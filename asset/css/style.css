@@ -793,7 +793,7 @@ footer a:hover {
     .hero {
         min-height: auto;
         padding: 30px 15px;
-        padding-top: 90px;
+        padding-top: 120px;
         overflow: hidden;
     }
 
@@ -896,7 +896,7 @@ footer a:hover {
 /* Extra small devices */
 @media screen and (max-width: 480px) {
     .hero {
-        padding-top: 80px;
+        padding-top: 150px;
     }
 
     .name {
