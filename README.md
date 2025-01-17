@@ -27,7 +27,6 @@ A modern and responsive portfolio website built with HTML, CSS, and JavaScript t
   - Custom animations
   - Media queries
   - CSS variables
-- Vanilla JavaScript (ES6+)
 
 🎨 **Design & Assets**
 - Font Awesome icons
