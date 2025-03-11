@@ -18,10 +18,4 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-    <url>
-        <loc>https://abhaypotrfolio.netlify.app/contact</loc>
-        <lastmod>2025-03-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
 </urlset>
