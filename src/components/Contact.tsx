@@ -90,7 +90,7 @@ export default function Contact() {
                 ></textarea>
               </div>
               <input type="hidden" name="_captcha" value="false"/>
-              <input type="hidden" name="_next" value="http://localhost:4321/"/>
+              <input type="hidden" name="_next" value="https://www.abdev.co.in/"/>
               <button
                 type="submit"
                 className="btn-ripple inline-flex w-full items-center justify-center gap-2 rounded-md bg-white px-5 py-3 font-medium text-neutral-900 transition-transform hover:scale-[1.02] active:scale-[0.98]"
