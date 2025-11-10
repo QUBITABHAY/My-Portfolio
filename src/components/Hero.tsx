@@ -2,10 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section
-      id="home"
-      className="relative overflow-hidden"
-    >
+    <section id="home" className="relative overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div
           id="hero-group"
@@ -22,22 +19,40 @@ export default function Hero() {
               Full‑Stack Developer • Open‑Source Maintainer • AI/ML Student
             </p>
             <p className="mt-3 md:max-w-lg text-white/70 md:text-lg">
-              I build full‑stack web apps with React and Node.js, and contribute to community projects.
-              Maintainer of Screentime Recorder @ NST‑SDC; focused on impactful, polished products.
+              I build full‑stack web apps with React and Node.js, and contribute
+              to community projects. Maintainer of Screentime Recorder @
+              NST‑SDC; focused on impactful, polished products.
             </p>
             <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm md:justify-start">
-              <a href="mailto:abhaypratap.yadav@adypu.edu.in" className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-white/5 px-3 py-1.5 text-white/80 hover:bg-white/10">
-                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 6.5A2.5 2.5 0 0 1 4.5 4h15A2.5 2.5 0 0 1 22 6.5v11A2.5 2.5 0 0 1 19.5 20h-15A2.5 2.5 0 0 1 2 17.5v-11Zm2 .28V7l8 5 8-5v-.22A.5.5 0 0 0 19.5 6h-15a.5.5 0 0 0-.5.78Z"/></svg>
+              <a
+                href="mailto:abhaypratap.yadav@adypu.edu.in"
+                className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-white/5 px-3 py-1.5 text-white/80 hover:bg-white/10"
+              >
+                <svg
+                  className="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M2 6.5A2.5 2.5 0 0 1 4.5 4h15A2.5 2.5 0 0 1 22 6.5v11A2.5 2.5 0 0 1 19.5 20h-15A2.5 2.5 0 0 1 2 17.5v-11Zm2 .28V7l8 5 8-5v-.22A.5.5 0 0 0 19.5 6h-15a.5.5 0 0 0-.5.78Z" />
+                </svg>
                 abhaypratap.yadav@adypu.edu.in
               </a>
             </div>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3 md:justify-start">
-              <a
-                href="#projects"
+              {/* <a
+                href="/CurriculumVitae.tsx"
                 className="btn-ripple inline-flex items-center rounded-md bg-white px-5 py-2.5 font-medium text-neutral-950 transition-transform hover:scale-[1.01]"
                 aria-label="View Work"
               >
-                View My Work
+                Curriculum Vitae
+              </a> */}
+              <a
+                href="/#projects"
+                className="btn-ripple inline-flex items-center rounded-md bg-white px-5 py-2.5 font-medium text-neutral-950 transition-transform hover:scale-[1.01]"
+                aria-label="View Work"
+              >
+                View Projects
               </a>
               <a
                 href="/resume.pdf"
@@ -107,7 +122,9 @@ export default function Hero() {
                 <span className="h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full bg-red-500/80" />
                 <span className="h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full bg-yellow-500/80" />
                 <span className="h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full bg-green-500/80" />
-                <span className="ml-2 sm:ml-3 text-[10px] sm:text-xs text-white/50">portfolio.tsx</span>
+                <span className="ml-2 sm:ml-3 text-[10px] sm:text-xs text-white/50">
+                  portfolio.tsx
+                </span>
               </div>
               {/* Code block */}
               <pre className="px-3 sm:px-4 py-2.5 sm:py-3 text-[12px] sm:text-[13px] leading-5 sm:leading-6 text-white/80 overflow-x-auto whitespace-pre">
