@@ -2,10 +2,47 @@ import { useRef, useState } from "react";
 
 const projects = [
   {
+    id: 0,
+    title: "EventEase",
+    description:
+      "EventEase is a full-stack event management platform. It enables users to create events, manage attendees, track RSVPs, and streamline event coordination. Designed with a scalable client–server architecture and secured with JWT authentication, EventEase delivers a seamless way to organize and manage events efficiently.",
+    tags: [
+      "Astro",
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+      "JWT Auth"
+    ],
+    shadow: "hover:shadow-green-500/10",
+    codeUrl: "https://github.com/QUBITABHAY/EventEase",
+    liveUrl: "https://event-ease-virid.vercel.app",
+  },
+  {
     id: 1,
+    title: "Paisa Track",
+    description:
+      "Paisa Track is a cross-platform UPI payment tracking app. It allows users to log, categorize, and analyze UPI transactions securely through JWT authentication. Built with a clean API architecture, Paisa Track helps users monitor their spending patterns and gain better financial awareness.",
+    tags: [
+      "React Native",
+      "Expo",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "JWT Auth"
+    ],
+    shadow: "hover:shadow-emerald-500/10",
+    codeUrl: "https://github.com/QUBITABHAY/Paisa_Track",
+    liveUrl: "https://github.com/QUBITABHAY/Paisa_Track/releases/tag/v1.0.0",
+  },
+  {
+    id: 2,
     title: "Screentime Recorder",
     description:
-      "A comprehensive screen-time tracking app built with the MERN stack featuring real-time tab tracking, Google OAuth authentication, and JWT security. Led a team to develop this project with interactive data visualizations using D3.js for detailed productivity insights. Includes a Chrome extension for automatic tab tracking and secure user management.",
+      "Screentime Recorder is a comprehensive screen-time tracking app built with the MERN stack featuring real-time tab tracking, Google OAuth authentication, and JWT security. Led a team to develop this project with interactive data visualizations using D3.js for detailed productivity insights. Includes a Chrome extension for automatic tab tracking and secure user management.",
     tags: [
       "React.js",
       "Node.js",
@@ -21,7 +58,7 @@ const projects = [
     liveUrl: "https://screentime-recoder.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "TextTones",
     description:
       "TextTones is a modern text-to-speech web app I built using React, AWS Polly, and Firebase. It features over 40 high-quality voices across 20+ languages, powered by neural TTS technology for natural-sounding speech. Users can preview audio in real time, download MP3 files, and track their usage history. With a responsive, cross-browser interface styled with Tailwind CSS and optimized using Vite, TextTones delivers a fast, user-friendly experience across devices.",
@@ -31,7 +68,7 @@ const projects = [
     liveUrl: "https://text-tones.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Type Master",
     description:
       "Type Master is an interactive typing practice app built with React and Vite. It offers a clean, modern UI with dark/light mode toggle and two practice modes: Single Word Challenge and Quote Challenge. Track your progress with real-time stats like WPM, accuracy, and mistakes. Designed for speed and responsiveness with Tailwind CSS.",
@@ -41,7 +78,7 @@ const projects = [
     liveUrl: "https://rush-typing.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Blog Website - Flask Blog Application",
     description:
       "A full-featured blog platform built with Python Flask, MongoDB, and Tailwind CSS. Features user authentication with secure login, post creation/editing/deletion, profile picture uploads, and a responsive design. Ideal for developers to share their technical insights with a clean, modern interface.",
@@ -51,7 +88,7 @@ const projects = [
     liveUrl: "https://blogdev.up.railway.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Local Sports Club",
     description:
       "A website for a local sports club where users can register for the club and can also view the events and news of the club. This project is made by three members: me and my two friends.",
@@ -226,7 +263,7 @@ export default function Projects() {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            View Details
+                            Try Live
                             <svg
                               className="h-5 w-5"
                               fill="none"
@@ -271,11 +308,10 @@ export default function Projects() {
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`h-3 sm:h-2 rounded-full transition-all ${
-                index === currentIndex
-                  ? "w-8 bg-sky-400"
-                  : "w-3 sm:w-2 bg-white/20 hover:bg-white/40"
-              }`}
+              className={`h-3 sm:h-2 rounded-full transition-all ${index === currentIndex
+                ? "w-8 bg-sky-400"
+                : "w-3 sm:w-2 bg-white/20 hover:bg-white/40"
+                }`}
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}
